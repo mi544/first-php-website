@@ -10,8 +10,16 @@
 <body>
     Hello!
     <?php
-        echo $_SERVER['HTTP_USER_AGENT'];
-        $abc = '123';
+        $first_array = ["a", "b", "c", "d"];
+        echo "<br />";
+        echo "First item: $first_array[0]";
+        echo "<br />";
+        $second_array = [0 => "a", 1 =>"b", "cool" => "c", 123 => "d"];
+        echo "Cool item: $second_array[cool]";
+        echo "<br />";
+        echo $_SERVER["HTTP_USER_AGENT"];
+        echo "<br />";
+        $abc = "123";
         echo $abc;
         phpinfo();
     ?>
