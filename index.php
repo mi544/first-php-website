@@ -47,6 +47,7 @@
             echo "The item is $first_array[$i]";
             echo "<br />";
         }
+        echo $i;
         phpinfo();
     ?>
 </body>
