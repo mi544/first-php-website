@@ -21,6 +21,10 @@
         echo "<br />";
         $abc = "123";
         echo $abc;
+        echo "<br />";
+        define("MINSIZE", 50);
+        echo MINSIZE;
+        echo constant("MINSIZE");
         phpinfo();
     ?>
 </body>
