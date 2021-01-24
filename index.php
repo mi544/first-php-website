@@ -27,6 +27,14 @@
         echo constant("MINSIZE");
         echo "<br />";
         echo __FILE__;
+        echo "<br />";
+        echo '-------------------------';
+        echo "<br />";
+        if (2 == 2)
+            echo "true in an if check";
+        else
+            echo "false in an if check";
+        echo 123;
         phpinfo();
     ?>
 </body>
