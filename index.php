@@ -31,10 +31,22 @@
         echo '-------------------------';
         echo "<br />";
         if (2 == 2)
-            echo "true in an if check";
+        echo "true in an if check";
         else
-            echo "false in an if check";
-        echo 123;
+        echo "false in an if check";
+        echo "<br />";
+        for ( $i = 0; $i < 5; $i+=1 ) {
+            echo "This is the {$i}(th) time it runs";
+            echo "<br />";
+        }
+        foreach( $first_array as $item ) {
+            echo "The item is $item";
+            echo "<br />";
+        }
+        for ( $i = 0; $i < sizeof($first_array); $i+=1 ) {
+            echo "The item is $first_array[$i]";
+            echo "<br />";
+        }
         phpinfo();
     ?>
 </body>
