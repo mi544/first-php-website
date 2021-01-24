@@ -25,6 +25,8 @@
         define("MINSIZE", 50);
         echo MINSIZE;
         echo constant("MINSIZE");
+        echo "<br />";
+        echo __FILE__;
         phpinfo();
     ?>
 </body>
