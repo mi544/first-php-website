@@ -10,6 +10,7 @@
 <body>
     Hello!
     <?php
+        echo "Bye!";
         $first_array = ["a", "b", "c", "d"];
         echo "<br />";
         echo "First item: $first_array[0]";
@@ -30,7 +31,7 @@
         echo "<br />";
         echo '-------------------------';
         echo "<br />";
-        if (2 == 2)
+        if (2 === 2)
         echo "true in an if check";
         else
         echo "false in an if check";
